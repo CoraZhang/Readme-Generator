@@ -26,7 +26,7 @@ quest.
 
 ? Please enter any testing protocols that you used for your project 
 
-This section of the sample.txt file is dedicated to include an specific testing scenarios that the user can use to test an app. The readme.md file in sample folder is the actual output 
+This section of the sample-text.txt file is dedicated to include an specific testing scenarios that the user can use to test an app. The readme.md file in sample folder is the actual output 
 
 ? What is your GitHub username? 
 
