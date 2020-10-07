@@ -47,11 +47,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Minimum Application Requirements
 
-* Meets [Submission Requirements](#submission-requirements) in the following section.
-
 * Functional application.
-
-* GitHub repository with a unique name and a README describing project.
 
 * The generated README includes the following sections: 
 
@@ -68,18 +64,13 @@ THEN I am taken to the corresponding section of the README
 * The generated README includes 1 badge that's specific to the repository.
 
 
-## Submission Requirements
+## Additional Requirements
 
 * Create a `.gitignore` file and include `node_modules/` and `.DS_Store/`.
 
-* `node_modules` is not tracked and uploaded to GitHub. (Hint: It is easy if you create your `.gitignore` file before installing dependencies with npm.)
+* `node_modules` is not tracked and uploaded to GitHub. 
 
 * Repo **MUST** include `package.json` with required dependencies. (Hint: Run `npm init` when you first setup the project before installing any dependencies.)
-
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
-
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers/other developers in the future what you built and why, and to show how it works.
-
 
 ## Test
 
@@ -88,8 +79,10 @@ THEN I am taken to the corresponding section of the README
 ## Demo
 
 * A walkthrough video demonstrating the functionality of the application. --The video recording is stored in DemoRecordings folder
+* Link:
 
 * A sample README.md file for a project repository generated using your application. -- The generated readme.md file is stored in sample folder
+![alt text](GeneratedReadme.png)
 
 * Screen shot of terminal : 
 ![alt text](Terminal.png)
