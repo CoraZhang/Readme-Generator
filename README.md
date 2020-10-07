@@ -1,14 +1,21 @@
-# Unit 09 Node.js and ES6+ Homework: Good README Generator
+# Node.js and ES6+ Project: Good README Generator
 
 When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
 
-Your task is to create a command-line application that dynamically generates a professional README.md from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Good README guide](../../01-HTML-Git-CSS/04-Important/Good-README-Guide/README.md) as a reminder of everything that a quality, professional README contains. The application will be invoked with the following command:
+The task is to create a command-line application that dynamically generates a professional README.md from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Good README guide](../../01-HTML-Git-CSS/04-Important/Good-README-Guide/README.md) as a reminder of everything that a quality, professional README contains. The application will be invoked with the following command:
 
 ```
 node index.js
 ```
 
-Because this is a command-line application that won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates the functionality of your application. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer.
+## What is done
+* Created command-line application that accepts user input
+* The project title user entered will be displayed as title of generated readme.md
+* Description, table of contents, installation, usage, license choice, contribution, tests and questions will be displayed after the user answering all questions
+* The information will be added to the sections entitled Description, Installation, Usage, Contributing, and Tests
+* The badge of choosen license will be added to the top of the readme file and a notice is added to the entitled License, explaining which license the application is covered
+* The Github user name, email address will be added to section entitled Questions, with link to the github profile and instructions to reach me
+* When clicking on the links in the table of contents, user will be taken to the corresponding section of readme
 
 ## User Story
 
@@ -63,8 +70,6 @@ THEN I am taken to the corresponding section of the README
 
 ## Submission Requirements
 
-Because this is a CLI App, there will be no need to deploy it to Heroku. This time, though, you need to include a video showing us that you got the app working with no bugs. You should include a link to the video in your application's `README.md` file.
-
 * Create a `.gitignore` file and include `node_modules/` and `.DS_Store/`.
 
 * `node_modules` is not tracked and uploaded to GitHub. (Hint: It is easy if you create your `.gitignore` file before installing dependencies with npm.)
@@ -79,12 +84,6 @@ Because this is a CLI App, there will be no need to deploy it to Heroku. This ti
 
 ## Commit Early and Often
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your code base in the event that you need to return to a previous state.
-
 Follow these guidelines for committing:
 
 * Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
@@ -95,9 +94,7 @@ Follow these guidelines for committing:
 
 * Test your application before you commit to ensure functionality at every step in the development process.
 
-We would like you to have more than 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
+## Submission
 
 You are required to submit the following:
 
