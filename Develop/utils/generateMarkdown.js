@@ -11,12 +11,12 @@ ${data.title}
 ${data.description}
 
 # Table of contents
-* [Installation](#-Installation)
-* [Usage](#-Usage)
-* [License](#-License)
-* [Contributing](#-Contributing)
-* [Tests](#-Tests)
-* [Questions](#-Contact-Information)
+* [Installation](https://github.com/CoraZhang/Readme-Generator/tree/master/Develop/sample#installation)
+* [Usage](https://github.com/CoraZhang/Readme-Generator/tree/master/Develop/sample#usage)
+* [License](https://github.com/CoraZhang/Readme-Generator/tree/master/Develop/sample#license)
+* [Contributing](https://github.com/CoraZhang/Readme-Generator/tree/master/Develop/sample#contributing)
+* [Tests](https://github.com/CoraZhang/Readme-Generator/tree/master/Develop/sample#tests)
+* [Questions](https://github.com/CoraZhang/Readme-Generator/tree/master/Develop/sample#questions)
 
 # Installation
 To install necessary NPM module dependencies, run the following command:
@@ -43,7 +43,7 @@ ${data.tests}
 * Please reach me at: 
 * GitHub Username: ${data.userName}
 * GitHub Email: ${data.userEmail}
-* Github Profile: "https://github.com/" + ${data.userName}
+* Github Profile: "https://github.com/${data.userName}"
 `
 }
 // Exporting the generateMarkdown function inorder to invoke in the index.js file.
