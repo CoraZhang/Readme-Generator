@@ -79,7 +79,7 @@ THEN I am taken to the corresponding section of the README
 ## Demo
 
 * A walkthrough video demonstrating the functionality of the application. --The video recording is stored in DemoRecordings folder
-* Link:
+* Link: https://www.dropbox.com/s/jy59tcrgzyg7ofe/DemoRecording.mov?dl=0
 
 * A sample README.md file for a project repository generated using your application. -- The generated readme.md file is stored in sample folder
 ![alt text](GeneratedReadme.png)
