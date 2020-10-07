@@ -92,5 +92,6 @@ THEN I am taken to the corresponding section of the README
 * A sample README.md file for a project repository generated using your application. -- The generated readme.md file is stored in sample folder
 
 * Screen shot of terminal : 
+![alt text] (Terminal.png)
 
 
