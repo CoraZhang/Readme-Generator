@@ -80,27 +80,17 @@ THEN I am taken to the corresponding section of the README
 
 * Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers/other developers in the future what you built and why, and to show how it works.
 
-* Because screenshots (and well-written READMEs) are extremely important in the context of GitHub, this will be part of the grading.
 
-## Commit Early and Often
+## Test
 
-Follow these guidelines for committing:
+* The sample-text.txt in sample folder is one of the testing scenarios. You can change the answers to generate different readme.md files
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+## Demo
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+* A walkthrough video demonstrating the functionality of the application. --The video recording is stored in DemoRecordings folder
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+* A sample README.md file for a project repository generated using your application. -- The generated readme.md file is stored in sample folder
 
-* Test your application before you commit to ensure functionality at every step in the development process.
+* Screen shot of terminal : 
 
-## Submission
-
-You are required to submit the following:
-
-* A walkthrough video demonstrating the functionality of the application. 
-
-* A sample README.md file for a project repository generated using your application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
